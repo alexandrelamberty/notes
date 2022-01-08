@@ -1,20 +1,11 @@
 # Notes
 
-Theses are my notes on different topics that interests me or had.
+Theses are my notes on different topics that interests me.
 
-## Content
+I use markdown to create the notes and then use a combination of [pandoc](),
+[dmenu]() and [surf]() to view them.
 
-As for now things are organized this way.
+Check the `template.html` and `styles.css` that are been used by pandoc to
+modify the default behaviours.
 
-- Computer Programming
-- Computers
-- Frameworks
-- Game Design
-- Health, Fitness and Nutrition
-- Home and Garden
-- Knowledge
-- Miscs
-- Operating Systems
-- Organization Schemes and Naming Conventions
-- Programming Languages
-- Softwares
+
