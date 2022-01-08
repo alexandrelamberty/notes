@@ -12,13 +12,15 @@ updated: 2021-04-06T13:34:30+02:00
 ---
 # Tmux
 
+See my Tmux config.
+
 ## Keybinds
 
 ## Pane Spliting
 
 ## Pane Switching
 
-```
+```conf
 # switch panes using Alt-arrow without prefix
 bind -n M-Left select-pane -L
 bind -n M-Right select-pane -R
@@ -26,28 +28,17 @@ bind -n M-Up select-pane -U
 bind -n M-Down select-pane -D
 ```
 
-## Scrolling vi / emacs mode
-
-Function                     vi              emacs
---------                     --              -----
-Half page down               C-d             M-Down
-Half page up                 C-u             M-Up
-Next page                    C-f             Page down
-Previous page                C-b             Page up
-Scroll down                  C-Down or C-e   C-Down
-Scroll up                    C-Up or C-y     C-Up
-Search again                 n               n
-Search again in reverse      N               N
-Search backward              ?               C-r
-Search forward               /               C-s
-
 ## Custom Behaviours
 
-# don't rename windows automatically
+Don't rename windows automatically
 
 set-option -g allow-rename off
 
 ## Visual customization
+
+## Sessions
+
+Tmux Resurect
 
 # References
 

@@ -9,6 +9,8 @@ updated: 2021-11-11T17:30:39+01:00
 ---
 # Algo VPN
 
+This is a new entry in my note.
+
 ## References
 
 [AlgoVPN](https://github.com/trailofbits/algo)

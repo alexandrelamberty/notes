@@ -17,4 +17,6 @@ updated: 2021-04-06T13:34:30+02:00
 stow -d ~/repos/ -t ~/ package_name 
 ```
 
-## - [Stow | GNU Project](https://www.gnu.org/software/stow/)
+## References
+
+- [Stow | GNU Project](https://www.gnu.org/software/stow/)

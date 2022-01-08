@@ -11,8 +11,20 @@ tags: ["free","software","programmers","linux"]
 
 # Build
 
+```bash
+sudo make install
+```
+
 # Patching
 
+```bash
+patch -p1 < patch_file
+```
+Remove a patch
+
+```bash
+patch -R -p1 < patch_file
+```
 ## References
 
 - [Suckless](https://suckless.org/)

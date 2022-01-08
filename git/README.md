@@ -157,7 +157,7 @@ git rebase master
 git merge --squash
 ```
 
-        ## Reset
+## Reset
 
 Squash the last 3 commits
 
@@ -187,7 +187,7 @@ Edit choose an operation pick, squash, fixup
 
 ## Show
 
-git show <commit-id>
+git show `commit-id`
 
 ```bash
 git show is HEAD~
@@ -240,7 +240,7 @@ git submodule update
 ```
 
 ```bash
-it submodule update --init
+git submodule update --init
 ```
 
 ```bash

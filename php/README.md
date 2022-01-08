@@ -11,6 +11,32 @@ updated: 2021-10-23T20:38:59+02:00
 ---
 # PHP
 
+## Installation
+
+```bash
+php -v
+
+PHP 8.0.14 (cli) (built: Dec 17 2021 14:16:47) ( NTS )
+Copyright (c) The PHP Group
+Zend Engine v4.0.14, Copyright (c) Zend Technologies
+    with Xdebug v3.1.2, Copyright (c) 2002-2021, by Derick Retha
+```
+
+## Configuration
+`php.ini`
+
+```bash
+php -c php.ini -v
+```
+
+## Composer
+
+```bash
+composer --version
+
+Composer version 2.2.1 2021-12-22 22:21:31
+```
+
 ## Class Dockblock
 
 ```php

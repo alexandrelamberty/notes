@@ -28,7 +28,7 @@ Find device info
 udevadm info --path=/your/device/path --attribute-walk
 ```
 
-Change asoundrc
+### Asoundrc
 
 ## Commands 
 

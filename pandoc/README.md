@@ -19,7 +19,22 @@ Transform Markdown to HTML
 pandoc --standalone --from markdown Pandoc.md --to html5 index.html
 ```
 
+## Templates
+
+Copy the default template to a file
+
+```bash
+pandoc -D latex > template.latex
+```
+
+Use the template
+
+```bash
+pandoc -s -N --template=template.latex doc.md -o doc.pdf
+```
+
 ## References 
 
 - [Pandoc](https://pandoc.org/)
 - [User's Guide | Pandoc](https://pandoc.org/MANUAL.html)
+- [Templates](https://pandoc.org/MANUAL.html#templates)

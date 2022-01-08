@@ -15,6 +15,8 @@ Node Package Manager
 
 ## Config
 
+Global configuration 
+
 ## CLI
 
 ## Using package

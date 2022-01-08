@@ -13,11 +13,15 @@ updated: 2021-10-23T20:38:59+02:00
 
 ## Import 
 
-Map files to directories so you can import them as @xxx.
+Map files to directories so you can import them as ´@xxx.´
 
-jsconfig.json, compiler options, vscpode, check with nvim...
+´jsconfig.json´, compiler options, vscpode, check with nvim...
 
+´´´json
 "@components/*" : ["components/*"]
 "@styles*" : ["styles/*"]
+´´´
 
 ## References 
+
+- []()
