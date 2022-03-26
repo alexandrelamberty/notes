@@ -10,22 +10,35 @@ updated: 2021-04-06T13:34:30+02:00
 ---
 # Nmcli
 
-```sh
-nmcli device wifi rescan 
+Check status of your device
+```bash
+nmcli dev status
+```
+
+Check if wifi is enable
+```bash
+nmcli radio wifi
+```
+
+Enable wifi
+```bash
+nmcli radio wifi on
 ```
 
 List wifi network
-
-```sh
-nmcli device wifi list
+```bash
+nmcli dev wifi list
 ```
 
 Connect to a wifi network
-
 ```sh
-nmcli device wifi connect [connection-name] password [password]
+nmcli dev wifi connect [ssid] password [password]
 ```
 
+Disconnect from network
+```bash
+nmcli con dow [network]
+```
 ## References
 
 - [NetworkManager - ArchWikbv ](https://wiki.archlinux.org/title/NetworkManager)

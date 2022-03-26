@@ -12,7 +12,9 @@ updated: 2021-04-06T13:34:30+02:00
 ---
 # Tmux
 
-See my Tmux config.
+## Configuration
+
+See my [.tmux.conf]().
 
 ## Keybinds
 

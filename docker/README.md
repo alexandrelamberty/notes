@@ -9,10 +9,22 @@ updated: 2021-11-11T17:30:39+01:00
 ---
 # Docker
 
+
+## Network
+
+https://docs.docker.com/network/bridge/#enable-forwarding-from-docker-containers-to-the-outside-world
+
+
 Enter a running container
 
 ```bash
 docker exec -it [container-id] bash
+```
+
+## Volumes
+
+```bash
+docker-compose down --volumes
 ```
 
 ## Templates

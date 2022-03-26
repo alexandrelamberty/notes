@@ -75,6 +75,8 @@ t => "tag"
 ## Autocomplete 
 - https://vim.fandom.com/wiki/Dictionary_completions
 
+### Spelling
+
 Ctrl+n - Everything
 Ctrl+p - Everything
 
@@ -91,7 +93,6 @@ Ctrl+x Ctrl+J - From Tags
 :e filename - edit another file
 :ls - show current buffers
 :b 2 - open buffer #2 in this window
-
 
 ## Split 
 
@@ -148,6 +149,12 @@ Type :setfiletype (with a space afterwards), then press Ctrl-d.
 
 See :help cmdline-completion for more on autocompletion in vim's command line.
 
+## Terminal
+
+Insert into the current buffer the terminal stdout
+```vim
+:r! date
+```
 ## Snippets
 
 ## References

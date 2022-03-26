@@ -80,6 +80,11 @@ Remove all torrents
 ```bash
 transmission-remote -t all -r
 ```
+
+## Web UI
+
+Transmissions-deamon
+
 ## References
 
 - [Transmission](https://transmissionbt.com/)

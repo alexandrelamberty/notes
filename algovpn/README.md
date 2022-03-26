@@ -13,4 +13,4 @@ This is a new entry in my note.
 
 ## References
 
-[AlgoVPN](https://github.com/trailofbits/algo)
+- [AlgoVPN](https://github.com/trailofbits/algo)
