@@ -12,6 +12,12 @@ updated: 2021-04-06T13:34:30+02:00
 ---
 # Tmux
 
+## Installation
+
+## Package manager
+
+## Sessions
+
 ## Configuration
 
 See my [.tmux.conf]().
@@ -38,12 +44,14 @@ set-option -g allow-rename off
 
 ## Visual customization
 
-## Sessions
 
 Tmux Resurect
 
 # References
 
 - [Tmux - ArchWiki](https://wiki.archlinux.org/title/tmux)
+- [Tmux Package manager](https://github.com/tmux-plugins/tpm)
+- [Tmux Resurrect](https://github.com/tmux-plugins/tmux-resurrect)
+- [Tmux Continuum](https://github.com/tmux-plugins/tmux-continuum)
 - [Maciakl - Dotfiles](https://github.com/maciakl/.dotfiles/blob/master/.tmux.conf)
 - [John Murray - Dotfiles](https://github.com/JohnMurray/dotfiles/blob/master/.tmux.conf)

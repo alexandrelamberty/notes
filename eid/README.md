@@ -36,10 +36,10 @@ Go to your Privacy & Security settings
 
 In the Device Manager window click the `Load` button.  ´New PKCS#11 Module´
 
-
 ## References
 
 [Archlinux - Electronic identification](https://wiki.archlinux.org/title/Electronic_identification)
 [Archlinux - Omnikey Cardman](https://wiki.archlinux.org/title/Omnikey_Cardman_5321)
 [Firefox - Add card reader](https://eid.belgium.be/fr/faq/firefox-comment-installer-et-activer-le-module-complementaire-eid#7311)
-[](https://eid.belgium.be/en/log-eid#7504)
+[Belgium eID Log](https://eid.belgium.be/en/log-eid#7504)
+[Belgium eID Files](https://files.eid.belgium.be/)
