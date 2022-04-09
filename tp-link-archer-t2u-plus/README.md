@@ -9,12 +9,20 @@ updated: 2021-12-21T18:05:22+02:00
 ---
 # TP-Link Archer T2U PLUS [RTL8821AU]
 
-This breaks all the time with the last kernel updates.
-
 > ! Make a pacman hooks to stop from updating the drivers 
-> ! Check pacman conf IgnorePkg
+
+## Installation 
+
+Clone the package
+```bash
+git clone https://aur.archlinux.org/rtl88xxau-aircrack-dkms-git.git
+```
+
+Build the package and install it
+```
+makepkg -si
+```
 
 ## Drivers
-- [8821au](https://github.com/morrownr/8821au-20210708.git)
-- [rtl8812au-dkms-git](https://aur.archlinux.org/rtl8812au-dkms-git.git)
-- [rtl88xxau-aircrack-dkms-git](https://aur.archlinux.org/rtl88xxau-aircrack-dkms-git.git)
+
+- [rtl88xxau-aircrack-dkms-git](https://aur.archlinux.org/packages/rtl88xxau-aircrack-dkms-git)
