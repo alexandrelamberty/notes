@@ -16,7 +16,24 @@ updated: 2021-04-06T13:34:30+02:00
 
 ## Package manager
 
+Default plugins location
+
 ## Sessions
+
+List sessions with options
+```bash
+tmux ls -F "#{session_name}"
+```
+
+Use FZF to list sessions and attach to one
+```bash
+tmux attach-session -t $(tmux ls -F "#{session_name}" | fzf)
+```
+
+Kill all sessions
+```bash
+tmux list-sessions | awk 'BEGIN{FS=":"}{print $1}' | xargs -n 1 tmux kill-session -t
+```
 
 ## Configuration
 
@@ -43,7 +60,6 @@ Don't rename windows automatically
 set-option -g allow-rename off
 
 ## Visual customization
-
 
 Tmux Resurect
 
