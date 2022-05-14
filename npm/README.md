@@ -1,11 +1,10 @@
 ---
 author: Alexandre Lamberty
 title: NPM
-description: | 
- Package manager for the JavaScript programming language and runtime
- environment Node.js
+description: | Package manager for the JavaScript programming language and
+runtime environment Node.js
 category: Package manager
-tags: ["package","manager","javascript","nodejs"]
+tags: [package,manager,javascript,nodejs]
 created: 2021-10-23T20:42:15+02:00
 updated: 2021-10-23T20:42:15+02:00
 ---

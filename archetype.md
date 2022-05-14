@@ -2,8 +2,10 @@
 slug: Slug
 title: Title
 description: Description
-category: Category
-tags: ["tag","tag"]
+category: category
+tags: ['tag', 'tag']
+created:
+updated:
 ---
-# Title
 
+# Title

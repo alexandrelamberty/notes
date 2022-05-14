@@ -1,3 +1,13 @@
+---
+author: Alexandre Lamberty
+title: Esp8266
+description: Cross-plateform software framework
+category: Electronics
+tags: [cross-plateform, javascript]
+created: 2021-11-22T21:24:54+01:00
+updated: 2021-11-22T21:24:54+01:00
+---
+
 # Esp8266
 
 ## Development

@@ -1,11 +1,11 @@
 ---
 author: Alexandre Lamberty
 title: Dunst 
-description: |
- Lightweight replacement for the notification daemons provided by most desktop
- environments 
-categories: ["Software"]
-tags: ["linux","notification"]
+description: | 
+Lightweight replacement for the notification daemons provided by most desktop
+environments 
+categories: Software
+tags: [notification,linux]
 created:
 updated:
 ---

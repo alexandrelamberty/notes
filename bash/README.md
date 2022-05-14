@@ -2,8 +2,8 @@
 author: Alexandre Lamberty
 title: Bash (Bourn Again Shell) 
 description: Unix shell and command language
-category: Linux
-tags: ["bash","bash","shell"]
+category: Software
+tags: [shell,linux]
 created: 2021-04-06T13:34:30+02:00
 updated: 2021-04-06T13:34:30+02:00
 ---

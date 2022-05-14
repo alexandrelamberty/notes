@@ -1,12 +1,11 @@
 ---
 author: Alexandre Lamberty
 title: Git
-description: | 
- Software for tracking changes in any set of files, usually used for
- coordinating work among programmers collaboratively developing source
- code during software development
-category: Programming
-tags: ["git","content","versionning"]
+description: | Software for tracking changes in any set of files, usually used
+for coordinating work among programmers collaboratively developing source code
+during software development
+category: Software
+tags: [content,versioning]
 created: 2021-10-23T20:38:58+02:00
 updated: 2021-10-23T20:38:58+02:00
 ---

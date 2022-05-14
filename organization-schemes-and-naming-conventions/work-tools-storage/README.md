@@ -1,4 +1,4 @@
-# Work Tools Storages
+# Work Tools Storage
 
 Unibits
 Sortimo

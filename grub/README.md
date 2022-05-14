@@ -1,12 +1,13 @@
 ---
 author: Alexandre Lamberty
-title: Grub 
+title: Grub
 description: Boot loader package
 category: Linux
-tags: ["grub", "linux", "partition"]
+tags: [partition, linux]
 created: 2021-04-06T13:34:30+02:00
 updated: 2021-04-06T13:34:30+02:00
 ---
+
 # Grub
 
 This is the beast in your nightmares ^^

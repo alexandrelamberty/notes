@@ -3,7 +3,7 @@ author: Alexandre Lamberty
 title: Awk
 description: Text processing and data extraction
 category: Linux
-tags: ["awk","text","processing","report","analysis"]
+tags: [text,processing,report,analysis]
 created: 2021-04-06T13:34:30+02:00
 updated: 2021-04-06T13:34:30+02:00
 ---

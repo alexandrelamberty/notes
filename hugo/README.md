@@ -3,7 +3,7 @@ author: Alexandre Lamberty
 title: Hugo 
 description: Static site generator written in Go
 category: Development
-tags: ["go","static","website","generator"]
+tags: [go,static,website,generator]
 created: 2021-11-15T13:59:02+01:00
 updated: 2021-11-15T13:59:02+01:00
 ---

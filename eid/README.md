@@ -1,4 +1,16 @@
-# Archlinux Belgian eID Omnikey Card Reader 
+---
+author: Alexandre Lamberty
+title: Archlinux Belgian eID Omnikey Card Reader 
+description: | 
+Belgian eID Omnikey card reader installation for Chrome and Firefox on
+ArchLinux 
+categories: Software
+tags: [eid,card,reader,belgian,linux,firefox,chrome]
+created:
+updated:
+---
+
+# Archlinux Belgian eID Omnikey Card Reader
 
 Belgian eID Omnikey card reader installation for Chrome and Firefox
 
@@ -13,8 +25,9 @@ sudo pacman -S pcsclite ccid opensc --noconfirm --needed
 Card reader driver [Omnikey ifdokccid](https://aur.archlinux.org/packages/omnikey_ifdokccid)
 
 Tools
-- about-eid-mw 
-- eid-env 
+
+- about-eid-mw
+- eid-env
 - eid-viewer
 
 ### Chrome
@@ -23,9 +36,9 @@ Install [nss](https://wiki.archlinux.org/title/Network_Security_Services)
 
 Add device to Chrome
 
-```bash 
+```bash
 modutil -dbdir sql:.pki/nssdb -add "Belgium eID" -libfile
-/usr/lib/libbeidpkcs11.so 
+/usr/lib/libbeidpkcs11.so
 ```
 
 ### Firefox
@@ -34,7 +47,7 @@ Go to your Privacy & Security settings
 [Preferences Privacy](about:preferences#privacy) then to `Security`,
 `Certificates` and click on `Security Devices...`
 
-In the Device Manager window click the `Load` button.  ´New PKCS#11 Module´
+In the Device Manager window click the `Load` button. ´New PKCS#11 Module´
 
 ## References
 

@@ -2,14 +2,15 @@
 author: Alexandre Lamberty
 title: Godot
 description: Cross-platform, free and open-source game engine
-categories: [Game engine]
-tags: ["2d","3d","c#","gdscript"]
+category: Game engine
+tags: [2d, 3d, c#, gdscript]
 created:
 updated:
 ---
+
 # Godot
 
-## Plugins 
+## Plugins
 
 ### Mutlirun
 
@@ -19,4 +20,4 @@ Godot plugin that allows to start multiple game instances at once.
 
 ## References
 
-- [Godot](https://godotengine.org/) 
+- [Godot](https://godotengine.org/)

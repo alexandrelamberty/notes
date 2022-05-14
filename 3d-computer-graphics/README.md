@@ -1,3 +1,13 @@
+---
+author:  Alexandre Lamberty
+title: 3D Computer Graphic
+description: 3D Concepts & Workflows 
+category: Computer Graphics
+tags: [vpn]
+created: 2021-11-11T17:30:39+01:00
+updated: 2021-11-11T17:30:39+01:00
+---
+
 # 3D CGI
 
 ## Topology
@@ -7,9 +17,6 @@ Topology Guides
 
 Decimating ? rocks
 Topology for deformable objects
-
-
-Topology
 
 Tri		3 sides
 Quad		4 sides

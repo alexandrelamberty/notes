@@ -3,7 +3,7 @@ author: Alexandre Lamberty
 title: Apache
 description: Free and open-source cross-platform web server
 category: Software
-tags: ["apache","http","server"]
+tags: [http,server]
 created: 2021-11-11T17:30:39+01:00
 updated: 2021-11-11T17:30:39+01:00
 ---

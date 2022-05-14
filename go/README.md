@@ -1,14 +1,15 @@
 ---
 author: Alexandre Lamberty
-title: Golang 
-description: A statically typed, compiled programming language, syntactically
+title: Go 
+description: | A statically typed, compiled programming language, syntactically
 similar to C, but with memory safety, garbage collection, structural typing,
 and CSP-style concurrency.
 category: Programming language
-tags: ["golang","go","programming","language"]
+tags: []
 created: 2021-04-06T13:34:30+02:00
 updated: 2021-04-06T13:34:30+02:00
 ---
+
 # Go
 
 ```sh

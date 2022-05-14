@@ -1,4 +1,4 @@
-# Webcam streaming
+# Linux Webcam Streaming
 
 ## Server
 

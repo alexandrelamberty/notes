@@ -1,14 +1,14 @@
 ---
 author: Alexandre Lamberty
 title: PHP 
-description: |
- General-purpose scripting language geared towards web
- development
+description: | General-purpose scripting language geared towards web
+development
 category: Programming language
-tags: ["php","web","server"]
+tags: [scripting,web,server]
 created: 2021-10-23T20:38:59+02:00
 updated: 2021-10-23T20:38:59+02:00
 ---
+
 # PHP
 
 ## Installation
@@ -23,6 +23,7 @@ Zend Engine v4.0.14, Copyright (c) Zend Technologies
 ```
 
 ## Configuration
+
 `php.ini`
 
 ```bash

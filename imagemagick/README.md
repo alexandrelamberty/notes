@@ -1,17 +1,17 @@
 ---
 author: Alexandre Lamberty
 title: ImageMagick 
-description: |
- Free and open-source cross-platform software suite for displaying, creating,
- converting, modifying, and editing raster images
-category: Images
-tags: ["imagemagick","image","manipulation"]
+description: | Free and open-source cross-platform software suite for
+displaying, creating, converting, modifying, and editing raster images
+category: Software
+tags: [image,manipulation]
 created: 2021-04-06T13:34:30+02:00
 updated: 2021-04-06T13:34:30+02:00
 ---
+
 # ImageMagick
 
-## Tests 
+## Tests
 
 magick convert -resize 460x460 -gravity center -fill white _.jpg
 magick convert -resize 256x256 -gravity center -extent 256x256 _.jpg

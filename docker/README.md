@@ -1,19 +1,16 @@
 ---
 author: Alexandre Lamberty
 title: Docker
-description: Set of platform as a service products that use OS-level virtualization to deliver software in packages called containers
-category: Programming
-tags: ["programming", "container", "virtualization", "image"]
+description: | 
+Set of platform as a service products that use OS-level virtualisation to
+deliver software in packages called containers
+category: Software
+tags: [container,virtualisation,image]
 created: 2021-11-11T17:30:39+01:00
 updated: 2021-11-11T17:30:39+01:00
 ---
+
 # Docker
-
-
-## Network
-
-https://docs.docker.com/network/bridge/#enable-forwarding-from-docker-containers-to-the-outside-world
-
 
 Enter a running container
 
@@ -27,23 +24,19 @@ docker exec -it [container-id] bash
 docker-compose down --volumes
 ```
 
-## Templates
+## Network
 
-### Nginx
+https://docs.docker.com/network/bridge/#enable-forwarding-from-docker-containers-to-the-outside-world
 
-### Apache Php
+## Formatting
 
-### Apache Php MySQL
 
-### Apache Php Postgres
-
-### MySQL
-
-### Postgres
-
-### MangoDB
+```bash
+docker container ls --all --format '{{.Names}}'
+```
 
 ## References
 
+<https://docs.docker.com/config/formatting/>
 [](https://docs.docker.com/engine/swarm/)
 [Portainer](www.portainer.io)

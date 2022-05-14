@@ -1,12 +1,16 @@
 ---
 author: Alexandre Lamberty
 title: Blender
-description: Free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, motion graphics, interactive 3D applications, virtual reality, and computer games.
-category: 3D
-tags: ["blender", "3D", "modeling"]
+description: | 
+Free and open-source 3D computer graphics software toolset used for creating
+animated films, visual effects, art, 3D printed models, motion graphics,
+interactive 3D applications, virtual reality, and computer games.
+category: Software
+tags: [3D,modeling,texturing,rendering]
 created: 2021-11-11T17:30:39+01:00
 updated: 2021-11-11T17:30:39+01:00
 ---
+
 # Blender Essentials
 
 The basics to start with Blender
@@ -160,6 +164,6 @@ Texturing
 
 Lighting
 
-
 ## References
+
 - [100 Blender 2.8 tips you might not know! (Blender 2.8 tips and tricks)](https://www.youtube.com/watch?v=_9dEqM3H31g&ab_channel=DanielKrafft)

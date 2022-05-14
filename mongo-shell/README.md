@@ -1,15 +1,23 @@
 ---
 author: Alexandre Lamberty
-title: Mongo Shell 
+title: Mongo Shell
 description: Interactive JavaScript interface to MongoDB
 category: Database
-tags: ["database","nosql"]
+tags: [database, nosql]
 created: 2021-10-23T20:38:59+02:00
 updated: 2021-10-23T20:38:59+02:00
 ---
+
 # Mongo Shell
 
-## References 
+## Connecting
+
+```bash
+mongo -u test -p test -authenticationDatabase test
+```
+
+## Commands
+
+## References
 
 - [Mongo Shell](https://docs.mongodb.com/v4.4/mongo/)
-

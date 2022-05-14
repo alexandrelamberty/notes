@@ -1,8 +1,10 @@
 ---
 author: Alexandre Lamberty
 title: Alsa (Advanced Linux Sound Architecture)
-description: |
- Provides an application programming interface for sound card device drivers
+description: | 
+Provides an application programming interface for sound card device drivers
+category: Software
+tags: [audio,sound,linux]
 created: 2021-11-11T17:30:39+01:00
 updated: 2021-11-11T17:30:39+01:00
 ---
