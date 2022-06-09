@@ -1,0 +1,26 @@
+# This workflow lint my markdown notes and use an action to reformat them into
+# an appropriate strucutre for 
+
+name: CI
+on:
+  push: 
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Formating content
+    steps:
+      - name: Pushes to another repository
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'output'
+          destination-github-username: 'cpina'
+          destination-repository-name: 'pandoc-test-output'
+          user-email: carles3@pina.cat
+          target-branch: main
+

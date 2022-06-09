@@ -1,0 +1,22 @@
+name: Manual workflow
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Person to greet'
+        default: 'World'
+        required: true
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Pushes to another repository
+      uses: cpina/github-action-push-to-another-repository@main
+      env:
+        API_TOKEN_GITHUB: ${{ github.token }}
+      with:
+        source-directory: './'
+        destination-github-username: 'alexandrelamberty'
+        destination-repository-name: 'test-actions'
+        user-email: mail@alexandrelamberty.com
+        target-branch: master
