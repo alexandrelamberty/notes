@@ -9,6 +9,7 @@ tags: [content,versioning]
 created: 2021-10-23T20:38:58+02:00
 updated: 2021-10-23T20:38:58+02:00
 ---
+
 # Git
 
 ## Lexical
@@ -75,7 +76,7 @@ git commit -a[m]
 ```
 
 ### Fixing commit
-    
+
 See Stashing
 
 ### Change last commit
@@ -139,9 +140,11 @@ git push -u <remote> <branch>
 ```bash
 git branch -d <local-branch>
 ```
+
 ```bash
 git branch -D <local-branch>
 ```
+
 ```bash
 git push origin --delete <remote-branch-name>
 ```
@@ -201,7 +204,7 @@ git diff [--cached]
 ```
 
 ## Log
-    
+
 ## Remote
 
 ```bash
@@ -292,5 +295,5 @@ rm -rf path_to_submodule
 
 ## References
 
-- [Git - Rewriting History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
-- [Tech Talk: Linus Torvalds on git](https://www.youtube.com/watch?v=4XpnKHJAok8&ab_channel=Google)
+- <https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History>
+- <https://www.youtube.com/watch?v=4XpnKHJAok8&ab_channel=Google>

@@ -1,3 +1,0 @@
-# Linux File System
-
-## Structure

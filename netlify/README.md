@@ -11,8 +11,14 @@ updated: 2021-10-23T20:42:15+02:00
 
 # Netlify
 
-A powerful serverless platform with an intuitive git-based workflow. Automated
-deployments, shareable previews, and much more.
+A powerful `serverless` platform with an intuitive git-based workflow.
+Automated deployments, shareable previews, and much more.
+
+## Build
+
+### Hugo
+
+### React
 
 # Hosting
 

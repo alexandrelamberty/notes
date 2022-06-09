@@ -12,6 +12,26 @@ updated: 2021-11-11T17:30:39+01:00
 
 # Docker
 
+## Installation
+
+### Users, Groups and Permissions
+
+```bash
+sudo usermod -aG docker $USER
+```
+
+> Check this command
+
+```bash
+sudo newgrp docker
+```
+
+```bash
+sudo chmod 666 /var/run/docker.sock
+```
+
+## Usage
+
 Enter a running container
 
 ```bash
@@ -29,7 +49,6 @@ docker-compose down --volumes
 https://docs.docker.com/network/bridge/#enable-forwarding-from-docker-containers-to-the-outside-world
 
 ## Formatting
-
 
 ```bash
 docker container ls --all --format '{{.Names}}'

@@ -1,23 +1,47 @@
 ---
 author: Alexandre Lamberty
-title: SSH - Secure Shell 
+title: SSH - Secure Shell
 description: |
- Cryptographic network protocol for operating network services securely over an
- unsecured network 
+  Cryptographic network protocol for operating network services securely over an
+  unsecured network
 category: Linux
-tags: ["ssh","secure","shell","protocol","network","linux"]
+tags: ['ssh', 'secure', 'shell', 'protocol', 'network', 'linux']
 created: 2021-04-06T13:34:30+02:00
 updated: 2021-04-06T13:34:30+02:00
 ---
+
 # Ssh
 
 > Check cryptographic network protocol meaning
 
 ## Configuration
 
-## Certificates
+## Generating a new SSH Key
 
-## Connecting to host
+Key are used to manage
+Create a Private/Public Key on your local machine
 
-## Transfering files
+```bash
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
 
+Copy public Key on the remote server
+
+```bash
+ssh-copy-id user@
+```
+
+## Adding your SSH Key to the ssh-agent
+
+Start the ssh-agent
+
+```bash
+$ eval "$(ssh-agent -s)"
+> Agent pid 59566
+```
+
+Add your private key to the ssh-agent
+
+```bash
+$ ssh-add ~/.ssh/id_ed25519
+```
